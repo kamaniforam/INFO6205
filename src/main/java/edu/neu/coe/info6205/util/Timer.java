@@ -87,7 +87,6 @@ public class Timer {
             }
         }
         return meanLapTime();
-        // END
     }
 
     /**
@@ -214,7 +213,6 @@ public class Timer {
     private static long getClock() {
         // FIXME by replacing the following code
         return System.nanoTime();
-        // END 
     }
 
     /**
@@ -227,7 +225,6 @@ public class Timer {
     private static double toMillisecs(long ticks) {
         // FIXME by replacing the following code
         return ticks / 1000000L;
-        // END 
     }
 
     final static LazyLogger logger = new LazyLogger(Timer.class);
