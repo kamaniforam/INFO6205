@@ -201,10 +201,10 @@ public class UF_HWQUPC implements UF {
 		Random random = new Random();
 		while (uf.components() > 1) {
 			int x = random.nextInt(n);
-			int j = random.nextInt(n);
+			int y = random.nextInt(n);
 
-			if (!uf.connected(x, j)) {
-				uf.union(x, j);
+			if (!uf.connected(x, y)) {
+				uf.union(x, y);
 			}
 			count++;
 		}
