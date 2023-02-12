@@ -213,16 +213,17 @@ public class UF_HWQUPC implements UF {
 	}
 
 	public static void main(String[] args) {
-		System.out.printf("%-10s %-10s \n", "n", "m");
+		System.out.printf("%-10s %-10s %-30s \n", "n", "m", "fn = 0.5 * n * ln(n)");
 
 		for (int i = 1000; i < 1000000; i *= 2) {
 			int total = 0;
 			for (int j = 0; j < 10; j++) {
 				total += count(i);
 			}
-
 			double mean = total / 10.0;
-			System.out.printf("%-10s %-10s\n", i, (int) mean);
+			int func =  (int) (0.5 * i * Math.log(i));
+
+			System.out.printf("%-10s %-10s %-30s\n", i, (int) mean, func);
 		}
 	}
 
