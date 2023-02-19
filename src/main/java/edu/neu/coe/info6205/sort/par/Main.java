@@ -18,7 +18,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		int thread = 2;
-		int len = 20000;
+		int len = 2000000;
 		processArgs(args);
 		System.out.println("Size of Array is:" + len);
 
