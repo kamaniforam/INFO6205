@@ -1,0 +1,434 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;\red132\green221\blue253;\red71\green204\blue252;\red221\green32\blue103;
+}
+{\*\expandedcolortbl;;\cssrgb\c57861\c89157\c99446;\cssrgb\c32483\c83691\c99157;\cssrgb\c90234\c23206\c47866;
+}
+\margl1440\margr1440\vieww16360\viewh17840\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54756:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/foram/Desktop/psa_backup/INFO6205/target/classes:/Users/foram/.m2/repository/com/phasmidsoftware/args_2.13/1.0.3/args_2.13-1.0.3.jar:/Users/foram/.m2/repository/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar:/Users/foram/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/foram/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/foram/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/foram/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/foram/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/foram/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/foram/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/foram/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/foram/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/foram/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/foram/.m2/repository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar edu.neu.coe.info6205.util.SortBenchmark 16000 32000 64000 128000 256000\
+2023-03-12 22:18:43 INFO  SortBenchmark - SortBenchmark.main: null with word counts: [16000, 32000, 64000, 128000, 256000]\
+2023-03-12 22:18:43 INFO  Benchmark_Timer - Begin run: intArraysorter with 100 runs\
+2023-03-12 22:18:45 INFO  TimeLogger - Raw time per run (mSec):  7.07\
+2023-03-12 22:18:45 INFO  TimeLogger - Normalized time per run (n log n):  .78\
+2023-03-12 22:18:45 INFO  Benchmark_Timer - Begin run: integerArraysorter with 100 runs\
+2023-03-12 22:18:47 INFO  TimeLogger - Raw time per run (mSec):  22.75\
+2023-03-12 22:18:47 INFO  TimeLogger - Normalized time per run (n log n):  2.50\
+2023-03-12 22:18:47 INFO  SortBenchmark - Beginning String sorts\
+2023-03-12 22:18:48 INFO  SortBenchmarkHelper - Testing with words: 22,865 from eng-uk_web_2002_10K-sentences.txt\
+2023-03-12 22:18:48 INFO  SortBenchmark - Testing pure sorts with 499 runs of sorting 16,000 words\
+2023-03-12 22:18:48 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:
+\f1\b \ul 18:48 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:18:51 INFO  TimeLogger - Raw time per run (mSec):  6.59
+\f0\b0 \cb1 \ulnone \
+2023-03-12 22:18:51 INFO  TimeLogger - Normalized time per run (n log n):  5.48\
+2023-03-12 22:18:51 INFO  SortBenchmark - mergesort: StatPack \{hits: mean= 434,694; stdDev=407, normalized=2.807; copies: 189,312, normalized=1.222; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=204,954; stdDev=101, normalized=1.323\}\
+2023-03-12 22:18:51 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:18:51 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:18:55 INFO  TimeLogger - Raw time per run (mSec):  6.55\cb1 \
+2023-03-12 22:18:55 INFO  TimeLogger - Normalized time per run (n log n):  5.45\
+2023-03-12 22:18:55 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=434,311; stdDev=411, normalized=2.804; copies: mean=189,120; stdDev=38, normalized=1.221; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=208,569; stdDev=105, normalized=1.347\}\
+2023-03-12 22:18:55 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:18:55 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:18:59 INFO  TimeLogger - Raw time per run (mSec):  6.46\cb1 \
+2023-03-12 22:18:59 INFO  TimeLogger - Normalized time per run (n log n):  5.37\
+2023-03-12 22:18:59 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=434,694; stdDev=407, normalized=2.807; copies: 189,312, normalized=1.222; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=204,954; stdDev=101, normalized=1.323\}\
+2023-03-12 22:18:59 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:18:59 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:19:02 INFO  TimeLogger - Raw time per run (mSec):  6.44\cb1 \
+2023-03-12 22:19:02 INFO  TimeLogger - Normalized time per run (n log n):  5.35\
+2023-03-12 22:19:02 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=441,733; stdDev=411, normalized=2.852; copies: 189,312, normalized=1.222; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=208,569; stdDev=105, normalized=1.347\}\
+2023-03-12 22:19:02 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: QuickSort dual pivot\
+
+\f1\b \cb2 \ul 2023-03-12 22:19:02 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 16,000 elements with 499 runs\
+2023-03-12 22:19:05 INFO  TimeLogger - Raw time per run (mSec):  5.68
+\f0\b0 \cb1 \ulnone \
+2023-03-12 22:19:05 INFO  TimeLogger - Normalized time per run (n log n):  4.73\
+2023-03-12 22:19:05 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: Heapsort\
+
+\f1\b \cb2 \ul 2023-03-12 22:19:05 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 16,000 elements with 499 runs\
+2023-03-12 22:19:09 INFO  TimeLogger - Raw time per run (mSec):  7.59
+\f0\b0 \cb1 \ulnone \
+2023-03-12 22:19:09 INFO  TimeLogger - Normalized time per run (n log n):  6.31\
+2023-03-12 22:19:10 INFO  SortBenchmarkHelper - Testing with words: 22,865 from eng-uk_web_2002_10K-sentences.txt\
+2023-03-12 22:19:10 INFO  SortBenchmark - Testing with 499 runs of sorting 16,000 words and instrumented\
+2023-03-12 22:19:10 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:19:10 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:19:13 INFO  TimeLogger - Raw time per run (mSec):  6.61\cb1 \
+2023-03-12 22:19:13 INFO  TimeLogger - Normalized time per run (n log n):  5.50\
+2023-03-12 22:19:13 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=434,694; stdDev=407, normalized=2.807; copies: 189,312, normalized=1.222; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=204,954; stdDev=101, normalized=1.323\}\
+2023-03-12 22:19:13 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:19:13 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:19:17 INFO  TimeLogger - Raw time per run (mSec):  6.72\cb1 \
+2023-03-12 22:19:17 INFO  TimeLogger - Normalized time per run (n log n):  5.59\
+2023-03-12 22:19:17 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=434,311; stdDev=411, normalized=2.804; copies: mean=189,120; stdDev=38, normalized=1.221; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=208,569; stdDev=105, normalized=1.347\}\
+2023-03-12 22:19:17 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:19:17 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:19:21 INFO  TimeLogger - Raw time per run (mSec):  6.54\cb1 \
+2023-03-12 22:19:21 INFO  TimeLogger - Normalized time per run (n log n):  5.44\
+2023-03-12 22:19:21 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=434,694; stdDev=407, normalized=2.807; copies: 189,312, normalized=1.222; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=204,954; stdDev=101, normalized=1.323\}\
+2023-03-12 22:19:21 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: mergesort\
+\cb2 2023-03-12 22:19:21 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 16,000 elements with 499 runs\
+2023-03-12 22:19:24 INFO  TimeLogger - Raw time per run (mSec):  6.55\cb1 \
+2023-03-12 22:19:24 INFO  TimeLogger - Normalized time per run (n log n):  5.45\
+2023-03-12 22:19:24 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=441,733; stdDev=411, normalized=2.852; copies: 189,312, normalized=1.222; inversions: <unset>; swaps: mean=14,017; stdDev=102, normalized=0.091; fixes: <unset>; compares: mean=208,569; stdDev=105, normalized=1.347\}\
+2023-03-12 22:19:24 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: QuicksortDualPivot\
+\cb2 2023-03-12 22:19:24 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuicksortDualPivot with 16,000 elements with 499 runs\
+2023-03-12 22:19:27 INFO  TimeLogger - Raw time per run (mSec):  5.58\cb1 \
+2023-03-12 22:19:27 INFO  TimeLogger - Normalized time per run (n log n):  4.64\
+2023-03-12 22:19:27 INFO  SortBenchmark - QuicksortDualPivot: StatPack \{hits: mean=702,708; stdDev=29,229, normalized=4.537; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=111,218; stdDev=6,247, normalized=0.718; fixes: <unset>; compares: mean=265,098; stdDev=10,095, normalized=1.712\}\
+2023-03-12 22:19:27 INFO  SorterBenchmark - run: sort 16,000 elements using SorterBenchmark on class java.lang.String from 22,865 total elements and 499 runs using sorter: Heapsort\
+\cb3 2023-03-12 22:19:27 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 16,000 elements with 499 runs\
+2023-03-12 22:19:32 INFO  TimeLogger - Raw time per run (mSec):  7.71\cb1 \
+2023-03-12 22:19:32 INFO  TimeLogger - Normalized time per run (n log n):  6.41\
+2023-03-12 22:19:32 INFO  SortBenchmark - Heapsort: StatPack \{hits: mean=1,632,293; stdDev=587, normalized=10.539; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=209,248; stdDev=94, normalized=1.351; fixes: <unset>; compares: mean=397,651; stdDev=121, normalized=2.567\}\
+2023-03-12 22:19:33 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt\
+\cb4 2023-03-12 22:19:33 INFO  SortBenchmark - Testing pure sorts with 231 runs of sorting 32,000 words\cb1 \
+2023-03-12 22:19:33 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:19:33 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:19:37 INFO  TimeLogger - Raw time per run (mSec):  15.65
+\f0\b0 \ulnone \
+2023-03-12 22:19:37 INFO  TimeLogger - Normalized time per run (n log n):  6.03\
+2023-03-12 22:19:37 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=933,432; stdDev=634, normalized=2.812; copies: 410,624, normalized=1.237; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=441,911; stdDev=144, normalized=1.331\}\
+2023-03-12 22:19:37 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:19:37 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:19:41 INFO  TimeLogger - Raw time per run (mSec):  15.10
+\f0\b0 \ulnone \
+2023-03-12 22:19:41 INFO  TimeLogger - Normalized time per run (n log n):  5.82\
+2023-03-12 22:19:41 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=932,667; stdDev=642, normalized=2.810; copies: mean=410,241; stdDev=54, normalized=1.236; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=449,143; stdDev=149, normalized=1.353\}\
+2023-03-12 22:19:41 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:19:41 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:19:46 INFO  TimeLogger - Raw time per run (mSec):  15.74
+\f0\b0 \ulnone \
+2023-03-12 22:19:46 INFO  TimeLogger - Normalized time per run (n log n):  6.06\
+2023-03-12 22:19:46 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=933,432; stdDev=634, normalized=2.812; copies: 410,624, normalized=1.237; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=441,911; stdDev=144, normalized=1.331\}\
+2023-03-12 22:19:46 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:19:46 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:19:50 INFO  TimeLogger - Raw time per run (mSec):  15.49
+\f0\b0 \ulnone \
+2023-03-12 22:19:50 INFO  TimeLogger - Normalized time per run (n log n):  5.97\
+2023-03-12 22:19:50 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=947,513; stdDev=642, normalized=2.854; copies: 410,624, normalized=1.237; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=449,143; stdDev=149, normalized=1.353\}\
+2023-03-12 22:19:50 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: QuickSort dual pivot\
+
+\f1\b \ul 2023-03-12 22:19:50 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 32,000 elements with 231 runs\
+2023-03-12 22:19:54 INFO  TimeLogger - Raw time per run (mSec):  12.81
+\f0\b0 \ulnone \
+2023-03-12 22:19:54 INFO  TimeLogger - Normalized time per run (n log n):  4.93\
+2023-03-12 22:19:54 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:19:54 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 32,000 elements with 231 runs\
+2023-03-12 22:19:59 INFO  TimeLogger - Raw time per run (mSec):  17.99
+\f0\b0 \ulnone \
+2023-03-12 22:19:59 INFO  TimeLogger - Normalized time per run (n log n):  6.93\
+2023-03-12 22:19:59 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt\
+2023-03-12 22:19:59 INFO  SortBenchmark - Testing with 231 runs of sorting 32,000 words and instrumented\
+2023-03-12 22:19:59 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:19:59 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:20:04 INFO  TimeLogger - Raw time per run (mSec):  14.85
+\f0\b0 \ulnone \
+2023-03-12 22:20:04 INFO  TimeLogger - Normalized time per run (n log n):  5.72\
+2023-03-12 22:20:04 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=933,432; stdDev=634, normalized=2.812; copies: 410,624, normalized=1.237; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=441,911; stdDev=144, normalized=1.331\}\
+2023-03-12 22:20:04 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:04 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:20:08 INFO  TimeLogger - Raw time per run (mSec):  14.81
+\f0\b0 \ulnone \
+2023-03-12 22:20:08 INFO  TimeLogger - Normalized time per run (n log n):  5.70\
+2023-03-12 22:20:08 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=932,667; stdDev=642, normalized=2.810; copies: mean=410,241; stdDev=54, normalized=1.236; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=449,143; stdDev=149, normalized=1.353\}\
+2023-03-12 22:20:08 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:08 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:20:12 INFO  TimeLogger - Raw time per run (mSec):  14.48
+\f0\b0 \ulnone \
+2023-03-12 22:20:12 INFO  TimeLogger - Normalized time per run (n log n):  5.58\
+2023-03-12 22:20:12 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=933,432; stdDev=634, normalized=2.812; copies: 410,624, normalized=1.237; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=441,911; stdDev=144, normalized=1.331\}\
+2023-03-12 22:20:12 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:12 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 32,000 elements with 231 runs\
+2023-03-12 22:20:16 INFO  TimeLogger - Raw time per run (mSec):  14.89
+\f0\b0 \ulnone \
+2023-03-12 22:20:16 INFO  TimeLogger - Normalized time per run (n log n):  5.73\
+2023-03-12 22:20:16 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=947,513; stdDev=642, normalized=2.854; copies: 410,624, normalized=1.237; inversions: <unset>; swaps: mean=28,046; stdDev=159, normalized=0.084; fixes: <unset>; compares: mean=449,143; stdDev=149, normalized=1.353\}\
+2023-03-12 22:20:16 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: QuicksortDualPivot\
+
+\f1\b \ul 2023-03-12 22:20:16 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuicksortDualPivot with 32,000 elements with 231 runs\
+2023-03-12 22:20:20 INFO  TimeLogger - Raw time per run (mSec):  12.83
+\f0\b0 \ulnone \
+2023-03-12 22:20:20 INFO  TimeLogger - Normalized time per run (n log n):  4.94\
+2023-03-12 22:20:20 INFO  SortBenchmark - QuicksortDualPivot: StatPack \{hits: mean=1,531,742; stdDev=67,275, normalized=4.614; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=242,338; stdDev=14,374, normalized=0.730; fixes: <unset>; compares: mean=577,539; stdDev=21,464, normalized=1.740\}\
+2023-03-12 22:20:20 INFO  SorterBenchmark - run: sort 32,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 231 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:20:20 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 32,000 elements with 231 runs\
+2023-03-12 22:20:25 INFO  TimeLogger - Raw time per run (mSec):  18.04
+\f0\b0 \ulnone \
+2023-03-12 22:20:25 INFO  TimeLogger - Normalized time per run (n log n):  6.95\
+2023-03-12 22:20:25 INFO  SortBenchmark - Heapsort: StatPack \{hits: mean=3,520,646; stdDev=886, normalized=10.606; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=450,506; stdDev=145, normalized=1.357; fixes: <unset>; compares: mean=859,311; stdDev=173, normalized=2.589\}\
+2023-03-12 22:20:26 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt\
+\cb4 2023-03-12 22:20:26 INFO  SortBenchmark - Testing pure sorts with 108 runs of sorting 64,000 words\cb1 \
+2023-03-12 22:20:26 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:26 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:20:30 INFO  TimeLogger - Raw time per run (mSec):  31.39
+\f0\b0 \ulnone \
+2023-03-12 22:20:30 INFO  TimeLogger - Normalized time per run (n log n):  5.63\
+2023-03-12 22:20:30 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=1,994,877; stdDev=867, normalized=2.817; copies: 885,248, normalized=1.250; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=947,824; stdDev=183, normalized=1.338\}\
+2023-03-12 22:20:30 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:30 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:20:34 INFO  TimeLogger - Raw time per run (mSec):  30.62
+\f0\b0 \ulnone \
+2023-03-12 22:20:34 INFO  TimeLogger - Normalized time per run (n log n):  5.49\
+2023-03-12 22:20:34 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=1,993,342; stdDev=860, normalized=2.814; copies: mean=884,481; stdDev=73, normalized=1.249; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=962,287; stdDev=187, normalized=1.359\}\
+2023-03-12 22:20:34 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:34 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:20:38 INFO  TimeLogger - Raw time per run (mSec):  30.18
+\f0\b0 \ulnone \
+2023-03-12 22:20:38 INFO  TimeLogger - Normalized time per run (n log n):  5.41\
+2023-03-12 22:20:38 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=1,994,877; stdDev=867, normalized=2.817; copies: 885,248, normalized=1.250; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=947,824; stdDev=183, normalized=1.338\}\
+2023-03-12 22:20:38 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:38 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:20:42 INFO  TimeLogger - Raw time per run (mSec):  30.23
+\f0\b0 \ulnone \
+2023-03-12 22:20:42 INFO  TimeLogger - Normalized time per run (n log n):  5.42\
+2023-03-12 22:20:42 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=2,023,036; stdDev=860, normalized=2.856; copies: 885,248, normalized=1.250; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=962,287; stdDev=187, normalized=1.359\}\
+2023-03-12 22:20:42 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: QuickSort dual pivot\
+
+\f1\b \ul 2023-03-12 22:20:42 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 64,000 elements with 108 runs\
+2023-03-12 22:20:46 INFO  TimeLogger - Raw time per run (mSec):  26.78
+\f0\b0 \ulnone \
+2023-03-12 22:20:46 INFO  TimeLogger - Normalized time per run (n log n):  4.80\
+2023-03-12 22:20:46 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:20:46 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 64,000 elements with 108 runs\
+2023-03-12 22:20:51 INFO  TimeLogger - Raw time per run (mSec):  37.87
+\f0\b0 \ulnone \
+2023-03-12 22:20:51 INFO  TimeLogger - Normalized time per run (n log n):  6.79\
+2023-03-12 22:20:52 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt\
+2023-03-12 22:20:52 INFO  SortBenchmark - Testing with 108 runs of sorting 64,000 words and instrumented\
+2023-03-12 22:20:52 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:52 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:20:56 INFO  TimeLogger - Raw time per run (mSec):  30.80
+\f0\b0 \ulnone \
+2023-03-12 22:20:56 INFO  TimeLogger - Normalized time per run (n log n):  5.52\
+2023-03-12 22:20:56 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=1,994,877; stdDev=867, normalized=2.817; copies: 885,248, normalized=1.250; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=947,824; stdDev=183, normalized=1.338\}\
+2023-03-12 22:20:56 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:20:56 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:21:00 INFO  TimeLogger - Raw time per run (mSec):  30.49
+\f0\b0 \ulnone \
+2023-03-12 22:21:00 INFO  TimeLogger - Normalized time per run (n log n):  5.47\
+2023-03-12 22:21:00 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=1,993,342; stdDev=860, normalized=2.814; copies: mean=884,481; stdDev=73, normalized=1.249; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=962,287; stdDev=187, normalized=1.359\}\
+2023-03-12 22:21:00 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:00 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:21:04 INFO  TimeLogger - Raw time per run (mSec):  30.32
+\f0\b0 \ulnone \
+2023-03-12 22:21:04 INFO  TimeLogger - Normalized time per run (n log n):  5.44\
+2023-03-12 22:21:04 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=1,994,877; stdDev=867, normalized=2.817; copies: 885,248, normalized=1.250; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=947,824; stdDev=183, normalized=1.338\}\
+2023-03-12 22:21:04 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:04 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 64,000 elements with 108 runs\
+2023-03-12 22:21:08 INFO  TimeLogger - Raw time per run (mSec):  30.17
+\f0\b0 \ulnone \
+2023-03-12 22:21:08 INFO  TimeLogger - Normalized time per run (n log n):  5.41\
+2023-03-12 22:21:08 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=2,023,036; stdDev=860, normalized=2.856; copies: 885,248, normalized=1.250; inversions: <unset>; swaps: mean=56,095; stdDev=217, normalized=0.079; fixes: <unset>; compares: mean=962,287; stdDev=187, normalized=1.359\}\
+2023-03-12 22:21:08 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: QuicksortDualPivot\
+
+\f1\b \ul 2023-03-12 22:21:08 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuicksortDualPivot with 64,000 elements with 108 runs\
+2023-03-12 22:21:12 INFO  TimeLogger - Raw time per run (mSec):  26.69
+\f0\b0 \ulnone \
+2023-03-12 22:21:12 INFO  TimeLogger - Normalized time per run (n log n):  4.78\
+2023-03-12 22:21:12 INFO  SortBenchmark - QuicksortDualPivot: StatPack \{hits: mean=3,276,095; stdDev=120,138, normalized=4.626; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=516,471; stdDev=26,131, normalized=0.729; fixes: <unset>; compares: mean=1,238,935; stdDev=45,306, normalized=1.749\}\
+2023-03-12 22:21:12 INFO  SorterBenchmark - run: sort 64,000 elements using SorterBenchmark on class java.lang.String from 81,546 total elements and 108 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:21:12 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 64,000 elements with 108 runs\
+2023-03-12 22:21:17 INFO  TimeLogger - Raw time per run (mSec):  37.97
+\f0\b0 \ulnone \
+2023-03-12 22:21:17 INFO  TimeLogger - Normalized time per run (n log n):  6.81\
+2023-03-12 22:21:17 INFO  SortBenchmark - Heapsort: StatPack \{hits: mean=7,553,203; stdDev=1,197, normalized=10.664; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=964,995; stdDev=194, normalized=1.362; fixes: <unset>; compares: mean=1,846,611; stdDev=240, normalized=2.607\}\
+2023-03-12 22:21:17 INFO  SortBenchmarkHelper - Testing with words: 303,172 from eng-uk_web_2002_1M-words.txt\
+\cb4 2023-03-12 22:21:17 INFO  SortBenchmark - Testing pure sorts with 50 runs of sorting 128,000 words\cb1 \
+2023-03-12 22:21:17 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:17 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:22 INFO  TimeLogger - Raw time per run (mSec):  68.98
+\f0\b0 \ulnone \
+2023-03-12 22:21:22 INFO  TimeLogger - Normalized time per run (n log n):  5.79\
+2023-03-12 22:21:22 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,245,485; stdDev=1,158, normalized=2.820; copies: 1,898,496, normalized=1.261; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,023,584; stdDev=284, normalized=1.344\}\
+2023-03-12 22:21:22 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:22 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:26 INFO  TimeLogger - Raw time per run (mSec):  66.28
+\f0\b0 \ulnone \
+2023-03-12 22:21:26 INFO  TimeLogger - Normalized time per run (n log n):  5.56\
+2023-03-12 22:21:26 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,242,391; stdDev=1,211, normalized=2.818; copies: mean=1,896,949; stdDev=123, normalized=1.260; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,052,506; stdDev=302, normalized=1.364\}\
+2023-03-12 22:21:26 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:26 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:30 INFO  TimeLogger - Raw time per run (mSec):  64.96
+\f0\b0 \ulnone \
+2023-03-12 22:21:30 INFO  TimeLogger - Normalized time per run (n log n):  5.45\
+2023-03-12 22:21:30 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,245,485; stdDev=1,158, normalized=2.820; copies: 1,898,496, normalized=1.261; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,023,584; stdDev=284, normalized=1.344\}\
+2023-03-12 22:21:30 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:30 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:34 INFO  TimeLogger - Raw time per run (mSec):  66.14
+\f0\b0 \ulnone \
+2023-03-12 22:21:34 INFO  TimeLogger - Normalized time per run (n log n):  5.55\
+2023-03-12 22:21:34 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,301,781; stdDev=1,211, normalized=2.858; copies: 1,898,496, normalized=1.261; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,052,506; stdDev=302, normalized=1.364\}\
+2023-03-12 22:21:34 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: QuickSort dual pivot\
+
+\f1\b \ul 2023-03-12 22:21:34 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 128,000 elements with 50 runs\
+2023-03-12 22:21:37 INFO  TimeLogger - Raw time per run (mSec):  58.24
+\f0\b0 \ulnone \
+2023-03-12 22:21:37 INFO  TimeLogger - Normalized time per run (n log n):  4.89\
+2023-03-12 22:21:37 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:21:37 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 128,000 elements with 50 runs\
+2023-03-12 22:21:43 INFO  TimeLogger - Raw time per run (mSec):  84.12
+\f0\b0 \ulnone \
+2023-03-12 22:21:43 INFO  TimeLogger - Normalized time per run (n log n):  7.06\
+2023-03-12 22:21:43 INFO  SortBenchmarkHelper - Testing with words: 303,172 from eng-uk_web_2002_1M-words.txt\
+2023-03-12 22:21:43 INFO  SortBenchmark - Testing with 50 runs of sorting 128,000 words and instrumented\
+2023-03-12 22:21:43 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:43 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:47 INFO  TimeLogger - Raw time per run (mSec):  66.22
+\f0\b0 \ulnone \
+2023-03-12 22:21:47 INFO  TimeLogger - Normalized time per run (n log n):  5.55\
+2023-03-12 22:21:47 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,245,485; stdDev=1,158, normalized=2.820; copies: 1,898,496, normalized=1.261; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,023,584; stdDev=284, normalized=1.344\}\
+2023-03-12 22:21:47 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:47 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:51 INFO  TimeLogger - Raw time per run (mSec):  66.12
+\f0\b0 \ulnone \
+2023-03-12 22:21:51 INFO  TimeLogger - Normalized time per run (n log n):  5.55\
+2023-03-12 22:21:51 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,242,391; stdDev=1,211, normalized=2.818; copies: mean=1,896,949; stdDev=123, normalized=1.260; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,052,506; stdDev=302, normalized=1.364\}\
+2023-03-12 22:21:51 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:51 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:21:56 INFO  TimeLogger - Raw time per run (mSec):  65.86
+\f0\b0 \ulnone \
+2023-03-12 22:21:56 INFO  TimeLogger - Normalized time per run (n log n):  5.52\
+2023-03-12 22:21:56 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,245,485; stdDev=1,158, normalized=2.820; copies: 1,898,496, normalized=1.261; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,023,584; stdDev=284, normalized=1.344\}\
+2023-03-12 22:21:56 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:21:56 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 128,000 elements with 50 runs\
+2023-03-12 22:22:00 INFO  TimeLogger - Raw time per run (mSec):  65.44
+\f0\b0 \ulnone \
+2023-03-12 22:22:00 INFO  TimeLogger - Normalized time per run (n log n):  5.49\
+2023-03-12 22:22:00 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=4,301,781; stdDev=1,211, normalized=2.858; copies: 1,898,496, normalized=1.261; inversions: <unset>; swaps: mean=112,123; stdDev=289, normalized=0.074; fixes: <unset>; compares: mean=2,052,506; stdDev=302, normalized=1.364\}\
+2023-03-12 22:22:00 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: QuicksortDualPivot\
+
+\f1\b \ul 2023-03-12 22:22:00 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuicksortDualPivot with 128,000 elements with 50 runs\
+2023-03-12 22:22:03 INFO  TimeLogger - Raw time per run (mSec):  57.10
+\f0\b0 \ulnone \
+2023-03-12 22:22:03 INFO  TimeLogger - Normalized time per run (n log n):  4.79\
+2023-03-12 22:22:03 INFO  SortBenchmark - QuicksortDualPivot: StatPack \{hits: mean=6,952,395; stdDev=230,204, normalized=4.619; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=1,098,092; stdDev=50,131, normalized=0.730; fixes: <unset>; compares: mean=2,620,254; stdDev=76,004, normalized=1.741\}\
+2023-03-12 22:22:03 INFO  SorterBenchmark - run: sort 128,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 50 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:22:03 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 128,000 elements with 50 runs\
+2023-03-12 22:22:08 INFO  TimeLogger - Raw time per run (mSec):  82.90
+\f0\b0 \ulnone \
+2023-03-12 22:22:08 INFO  TimeLogger - Normalized time per run (n log n):  6.95\
+2023-03-12 22:22:08 INFO  SortBenchmark - Heapsort: StatPack \{hits: mean=16,129,903; stdDev=1,759, normalized=10.716; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=2,057,915; stdDev=289, normalized=1.367; fixes: <unset>; compares: mean=3,949,121; stdDev=331, normalized=2.624\}\
+2023-03-12 22:22:09 INFO  SortBenchmarkHelper - Testing with words: 303,172 from eng-uk_web_2002_1M-words.txt\
+\cb4 2023-03-12 22:22:09 INFO  SortBenchmark - Testing pure sorts with 24 runs of sorting 256,000 words\cb1 \
+2023-03-12 22:22:09 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:09 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:13 INFO  TimeLogger - Raw time per run (mSec):  142.54
+\f0\b0 \ulnone \
+2023-03-12 22:22:13 INFO  TimeLogger - Normalized time per run (n log n):  5.62\
+2023-03-12 22:22:13 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=9,002,965; stdDev=1,783, normalized=2.824; copies: 4,052,992, normalized=1.271; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,303,164; stdDev=441, normalized=1.350\}\
+2023-03-12 22:22:13 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:13 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:17 INFO  TimeLogger - Raw time per run (mSec):  142.75
+\f0\b0 \ulnone \
+2023-03-12 22:22:17 INFO  TimeLogger - Normalized time per run (n log n):  5.62\
+2023-03-12 22:22:17 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=8,996,786; stdDev=1,870, normalized=2.822; copies: mean=4,049,903; stdDev=161, normalized=1.270; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,361,011; stdDev=466, normalized=1.368\}\
+2023-03-12 22:22:17 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:17 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:22 INFO  TimeLogger - Raw time per run (mSec):  140.04
+\f0\b0 \ulnone \
+2023-03-12 22:22:22 INFO  TimeLogger - Normalized time per run (n log n):  5.52\
+2023-03-12 22:22:22 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=9,002,965; stdDev=1,783, normalized=2.824; copies: 4,052,992, normalized=1.271; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,303,164; stdDev=441, normalized=1.350\}\
+2023-03-12 22:22:22 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:22 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:26 INFO  TimeLogger - Raw time per run (mSec):  140.75
+\f0\b0 \ulnone \
+2023-03-12 22:22:26 INFO  TimeLogger - Normalized time per run (n log n):  5.55\
+2023-03-12 22:22:26 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=9,115,568; stdDev=1,870, normalized=2.859; copies: 4,052,992, normalized=1.271; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,361,011; stdDev=466, normalized=1.368\}\
+2023-03-12 22:22:26 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: QuickSort dual pivot\
+
+\f1\b \ul 2023-03-12 22:22:26 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 256,000 elements with 24 runs\
+2023-03-12 22:22:30 INFO  TimeLogger - Raw time per run (mSec):  123.46
+\f0\b0 \ulnone \
+2023-03-12 22:22:30 INFO  TimeLogger - Normalized time per run (n log n):  4.86\
+2023-03-12 22:22:30 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:22:30 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 256,000 elements with 24 runs\
+2023-03-12 22:22:35 INFO  TimeLogger - Raw time per run (mSec):  182.96
+\f0\b0 \ulnone \
+2023-03-12 22:22:35 INFO  TimeLogger - Normalized time per run (n log n):  7.21\
+2023-03-12 22:22:36 INFO  SortBenchmarkHelper - Testing with words: 303,172 from eng-uk_web_2002_1M-words.txt\
+2023-03-12 22:22:36 INFO  SortBenchmark - Testing with 24 runs of sorting 256,000 words and instrumented\
+2023-03-12 22:22:36 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:36 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:40 INFO  TimeLogger - Raw time per run (mSec):  148.79
+\f0\b0 \ulnone \
+2023-03-12 22:22:40 INFO  TimeLogger - Normalized time per run (n log n):  5.86\
+2023-03-12 22:22:40 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=9,002,965; stdDev=1,783, normalized=2.824; copies: 4,052,992, normalized=1.271; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,303,164; stdDev=441, normalized=1.350\}\
+2023-03-12 22:22:40 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:40 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:44 INFO  TimeLogger - Raw time per run (mSec):  144.29
+\f0\b0 \ulnone \
+2023-03-12 22:22:44 INFO  TimeLogger - Normalized time per run (n log n):  5.69\
+2023-03-12 22:22:44 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=8,996,786; stdDev=1,870, normalized=2.822; copies: mean=4,049,903; stdDev=161, normalized=1.270; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,361,011; stdDev=466, normalized=1.368\}\
+2023-03-12 22:22:44 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:44 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:48 INFO  TimeLogger - Raw time per run (mSec):  142.08
+\f0\b0 \ulnone \
+2023-03-12 22:22:48 INFO  TimeLogger - Normalized time per run (n log n):  5.60\
+2023-03-12 22:22:48 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=9,002,965; stdDev=1,783, normalized=2.824; copies: 4,052,992, normalized=1.271; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,303,164; stdDev=441, normalized=1.350\}\
+2023-03-12 22:22:48 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: mergesort\
+
+\f1\b \ul 2023-03-12 22:22:48 INFO  Benchmark_Timer - Begin run: Instrumenting helper for mergesort with 256,000 elements with 24 runs\
+2023-03-12 22:22:53 INFO  TimeLogger - Raw time per run (mSec):  141.96
+\f0\b0 \ulnone \
+2023-03-12 22:22:53 INFO  TimeLogger - Normalized time per run (n log n):  5.59\
+2023-03-12 22:22:53 INFO  SortBenchmark - mergesort: StatPack \{hits: mean=9,115,568; stdDev=1,870, normalized=2.859; copies: 4,052,992, normalized=1.271; inversions: <unset>; swaps: mean=224,245; stdDev=446, normalized=0.070; fixes: <unset>; compares: mean=4,361,011; stdDev=466, normalized=1.368\}\
+2023-03-12 22:22:53 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: QuicksortDualPivot\
+
+\f1\b \ul 2023-03-12 22:22:53 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuicksortDualPivot with 256,000 elements with 24 runs\
+2023-03-12 22:22:57 INFO  TimeLogger - Raw time per run (mSec):  125.50
+\f0\b0 \ulnone \
+2023-03-12 22:22:57 INFO  TimeLogger - Normalized time per run (n log n):  4.94\
+2023-03-12 22:22:57 INFO  SortBenchmark - QuicksortDualPivot: StatPack \{hits: mean=14,835,902; stdDev=424,207, normalized=4.654; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=2,336,032; stdDev=77,636, normalized=0.733; fixes: <unset>; compares: mean=5,605,731; stdDev=146,446, normalized=1.758\}\
+2023-03-12 22:22:57 INFO  SorterBenchmark - run: sort 256,000 elements using SorterBenchmark on class java.lang.String from 303,172 total elements and 24 runs using sorter: Heapsort\
+
+\f1\b \ul 2023-03-12 22:22:57 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heapsort with 256,000 elements with 24 runs\
+2023-03-12 22:23:02 INFO  TimeLogger - Raw time per run (mSec):  182.25
+\f0\b0 \ulnone \
+2023-03-12 22:23:02 INFO  TimeLogger - Normalized time per run (n log n):  7.18\
+2023-03-12 22:23:02 INFO  SortBenchmark - Heapsort: StatPack \{hits: mean=34,308,651; stdDev=1,894, normalized=10.762; copies: 0, normalized=0.000; inversions: <unset>; swaps: mean=4,371,964; stdDev=323, normalized=1.371; fixes: <unset>; compares: mean=8,410,397; stdDev=390, normalized=2.638\}\
+2023-03-12 22:23:02 INFO  SortBenchmark - Beginning LocalDateTime sorts\
+\
+Process finished with exit code 0\
+}
